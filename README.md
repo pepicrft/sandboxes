@@ -1,27 +1,27 @@
 # sandboxes
 
 > [!NOTE]
-> Last directory refresh: **March 27, 2026**. This repository is only a directory of sandbox options. If public information is missing, write `I don't know`.
+> Last directory refresh: **March 27, 2026**. This repository is only a directory of sandbox options.
 
 ## Provider Directory
 
 | Provider | Service model | Notable capabilities | Pricing snapshot |
 |---|---|---|---|
-| [Daytona](https://www.daytona.io/) | Remote dev sandboxes / workspaces | sandbox lifecycle, exec, filesystem, snapshots, SDK + API | `I don't know` |
-| [Namespace](https://namespace.so/) | Cloud development environments | persistent environments, SSH access, session-oriented workflows | `I don't know` |
+| [Daytona](https://www.daytona.io/) | Remote dev sandboxes / workspaces | sandbox lifecycle, exec, filesystem, snapshots, SDK + API | Not publicly listed |
+| [Namespace](https://namespace.so/) | Cloud development environments | persistent environments, SSH access, session-oriented workflows | Not publicly listed |
 | [Modal](https://modal.com/pricing) | Serverless containers and sandboxes | containerized exec, filesystem, autoscaling, GPU workloads | Starter: `$0` + usage, includes `$30/month` credits. Team: `$250/month` + usage, includes `$100/month` credits |
 | [Fly.io](https://fly.io/) | Firecracker VMs and app machines | VM-style workloads, attached volumes, process execution | Usage-based infrastructure pricing |
-| [Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) | Ephemeral microVM sandboxes | command execution, file upload/download, automation-friendly SDK | `I don't know` |
+| [Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) | Ephemeral microVM sandboxes | command execution, file upload/download, automation-friendly SDK | Not publicly listed |
 | [Docker](https://www.docker.com/) | Self-hosted containers | local or remote containers, exec, archive-based filesystem workflows | Depends on your own infrastructure and Docker licensing |
-| [Runloop](https://www.runloop.ai/) | Cloud browser / VM-like agent sandboxes | low-latency command execution, browser and environment automation | `I don't know` |
+| [Runloop](https://www.runloop.ai/) | Cloud browser / VM-like agent sandboxes | low-latency command execution, browser and environment automation | Not publicly listed |
 | [Cloudflare](https://developers.cloudflare.com/containers/) | Container workloads on Cloudflare infrastructure | containers plus surrounding Cloudflare primitives, API-driven orchestration | Depends on underlying Cloudflare products |
-| [OpenComputer](https://docs.opencomputer.dev/sdks/typescript/overview) | API-managed sandboxes | commands, filesystem, PTY, template management | `I don't know` |
-| [Blaxel](https://blaxel.ai/) | AI runtime / sandbox infrastructure | process execution and API-managed environments | `I don't know` |
-| [OpenSandbox](https://opensandbox.com/) | Hosted sandbox environments | command execution and file workflows | `I don't know` |
+| [OpenComputer](https://docs.opencomputer.dev/sdks/typescript/overview) | API-managed sandboxes | commands, filesystem, PTY, template management | Not publicly listed |
+| [Blaxel](https://blaxel.ai/) | AI runtime / sandbox infrastructure | process execution and API-managed environments | Not publicly listed |
+| [OpenSandbox](https://opensandbox.com/) | Hosted sandbox environments | command execution and file workflows | Not publicly listed |
 | [Ona](https://ona.com/) | Cloud engineering environments | VM-backed workspaces, tasks, Gitpod migration path | Small `$0.12/hr`, Regular `$0.23/hr`, Large `$0.46/hr`, XL `$1.84/hr`, GPU `$1.95/hr` |
 | [GitHub Codespaces](https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-github-codespaces/about-billing-for-github-codespaces) | Hosted development VMs | SSH/terminal workflows, persistent dev environments, prebuilds | Metered by machine type, storage, and transfer |
-| [Coder](https://coder.com/) | Self-hosted remote workspaces | templates, workspace lifecycle, SSH/IDE integrations | `I don't know` |
-| [Devin](https://cognition.ai/) | Managed AI engineer environment | agent-driven sandbox/session workflows | `I don't know` |
+| [Coder](https://coder.com/) | Self-hosted remote workspaces | templates, workspace lifecycle, SSH/IDE integrations | Not publicly listed |
+| [Devin](https://cognition.ai/) | Managed AI engineer environment | agent-driven sandbox/session workflows | Not publicly listed |
 
 ## Capability Comparison
 
@@ -46,7 +46,7 @@
 ## Maintenance Notes
 
 - Only include publicly available information.
-- If a provider does not expose public pricing, write `I don't know`.
+- If a provider does not expose public pricing, write `Not publicly listed`.
 
 ## Source Notes
 
