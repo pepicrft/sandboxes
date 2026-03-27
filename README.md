@@ -13,6 +13,7 @@
 | [Fly.io](https://fly.io/) | Firecracker VMs and app machines | VM-style workloads, attached volumes, process execution | Usage-based infrastructure pricing |
 | [Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) | Ephemeral microVM sandboxes | command execution, file upload/download, automation-friendly SDK | Not publicly listed |
 | [Docker](https://www.docker.com/) | Self-hosted containers | local or remote containers, exec, archive-based filesystem workflows | Depends on your own infrastructure and Docker licensing |
+| [Deno Sandbox](https://deno.com/deploy/sandbox) | Firecracker microVM sandboxes | code execution, persistent filesystem, network policies, SSH, HTTP exposure, VS Code exposure | `$0.05/CPU-hr`, `$0.016/GiB-hr`, `$0.20/GiB-month` |
 | [Runloop](https://www.runloop.ai/) | Cloud browser / VM-like agent sandboxes | low-latency command execution, browser and environment automation | Not publicly listed |
 | [Cloudflare](https://developers.cloudflare.com/containers/) | Container workloads on Cloudflare infrastructure | containers plus surrounding Cloudflare primitives, API-driven orchestration | Depends on underlying Cloudflare products |
 | [OpenComputer](https://docs.opencomputer.dev/sdks/typescript/overview) | API-managed sandboxes | commands, filesystem, PTY, template management | Not publicly listed |
@@ -33,6 +34,7 @@
 | Fly.io | Firecracker VM | Yes | Partial / volume-centric | Yes | Partial / suspend or image-based workflows |
 | Vercel Sandbox | microVM | Yes | Yes | Partial | Partial |
 | Docker | Container | Yes | Yes | Yes | Partial / image-based |
+| Deno Sandbox | Firecracker microVM | Yes | Yes | Yes | Partial / persistent filesystem |
 | Runloop | Managed sandbox / VM | Yes | Yes | Yes | Provider-specific |
 | Cloudflare | Container platform | Yes | Yes | Partial | No clear generic snapshot primitive |
 | OpenComputer | Managed sandbox | Yes | Yes | Yes | Provider-specific |
