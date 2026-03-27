@@ -4,32 +4,23 @@ This file provides context for AI agents working on this codebase.
 
 ## Project Overview
 
-libsandbox is a Rust library that provides a universal interface for interacting with cloud sandbox providers. It uses a trait-based adapter pattern where each sandbox provider (Daytona, Modal, Fly.io, etc.) implements a common set of traits.
+This repository is a directory of sandbox providers. It is not a software library and it should not contain source code, tests, or build tooling.
 
-## Architecture
+## Repository Contents
 
-- `src/lib.rs` — Public API re-exports
-- `src/models.rs` — Core data types (Sandbox, Command, ExecResult, FileEntry, etc.)
-- `src/traits.rs` — Core traits (SandboxProvider, CommandExecutor, FileSystem, Snapshottable)
-- `src/error.rs` — Error types
-- `src/providers/` — One module per provider adapter
-- `src/providers/daytona.rs` — Daytona adapter (first implementation)
+- `README.md` - main directory of providers, pricing, and capabilities
+- `specs/` - supporting notes and comparison material
+- `AGENTS.md` - instructions for agents working in this repository
 
 ## Conventions
 
-- Use `thiserror` for error types
-- Use `async-trait` for async trait definitions
-- Use `reqwest` for HTTP clients
-- Use `serde` for serialization/deserialization
-- Use `tokio` as the async runtime
-- Provider adapters implement the core traits from `src/traits.rs`
-- Each provider is behind a cargo feature flag (e.g., `features = ["daytona"]`)
-- Tests go in `tests/` directory, with integration tests per provider
+- Keep the repository documentation-only
+- Only include publicly available information
+- If pricing is not publicly available, write `I don't know`
+- Prefer short tables over long explanations
+- Keep provider descriptions factual and easy to scan
 
 ## Commands
 
-- `cargo build` — Build the library
-- `cargo test` — Run all tests
-- `cargo test --features daytona` — Run tests for a specific provider
-- `cargo clippy` — Lint
-- `cargo fmt` — Format
+- No build or test commands are expected
+- Typical work is editing Markdown files
